@@ -1,4 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace HelloWorld{
+    class Program {
+       
+        static void Main(){
+             var Name= "Jhon";
+             Name= "Jhon 1";
+            Console.WriteLine($"Hello world.:{Name}");
+            Console.WriteLine();
+        }
 
-Console.ReadLine();
+    }
+}
